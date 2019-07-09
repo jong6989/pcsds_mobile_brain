@@ -1,0 +1,144 @@
+
+.column {
+    height: 100%; 
+    width: 100%;
+    display: flex; 
+    flex-flow: column;
+  }
+  .column-center {
+    height: 100%; 
+    width: 100%;
+    display: flex; 
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .row {
+    height: 100%; 
+    width: 100%;
+    display: flex; 
+    flex-flow: row;
+  }
+  
+  .row-center {
+    height: 100%; 
+    width: 100%;
+    display: flex; 
+    flex-flow: row;
+    justify-items: center;
+    align-items: center;
+  }
+  .self-center {
+    align-self: center;
+  }
+  .self-start {
+    align-self: flex-start;
+  }
+  .self-end {
+    align-self: flex-end;
+  }
+
+
+/* .layout {
+    display: flex;
+}
+
+.layout.row {
+    flex-direction: row;
+}
+
+.layout.column {
+    flex-direction: column;
+}
+
+.layout.row.full {
+    height: 100%;
+}
+
+.layout.column.full {
+    width: 100%;
+}
+
+.layout.row.r {
+    flex-direction: row-reverse;
+}
+
+.layout.column.r {
+    flex-direction: column-reverse;
+}
+.layout.wrap{
+    flex-wrap: wrap;
+}
+.layout.nowrap{
+    flex-wrap: nowrap ;
+}
+.layout.wrap-r{
+    flex-wrap: wrap-reverse;
+}
+
+.layout.jstart {
+    justify-content: flex-start;
+}
+
+.layout.jend {
+    justify-content: flex-end;
+}
+
+.layout.jcenter {
+    justify-content: center;
+}
+
+.layout.jspace-between {
+    justify-content: space-between;
+}
+
+.layout.jspace-around {
+    justify-content: space-around;
+}
+
+.layout.jspace-evenly {
+    justify-content: space-evenly;
+}
+
+.layout.astart {
+    align-content: flex-start;
+}
+
+.layout.aend {
+    align-content: flex-end;
+}
+
+.layout.acenter {
+    align-content: center;
+}
+
+.layout.aspace-between {
+    align-content: space-between;
+}
+
+.layout.aspace-around {
+    align-content: space-around;
+}
+
+.layout.astretch {
+    align-content: stretch;
+} */
+
+.flex {
+    flex: auto;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-3 {
+    flex: 3;
+}
+.flex-4 {
+    flex: 4;
+}
+.flex-5 {
+    flex: 5;
+}
+.flex-6 {
+    flex: 6;
+}
