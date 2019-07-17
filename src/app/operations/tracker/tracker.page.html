@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <ion-input type="text" placeholder="Marker Name" [(ngModel)]="name"></ion-input>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<div style="max-height: 300px; overflow: scroll;">
+  <div *ngFor="let x of markers | async">
+    <ion-button (click)="flyToMarker(x)">
+      {{x.properties.name}}
+    </ion-button>
+
+    <ion-button (click)="removeMarker(x)">
+      Remove Marker
+    </ion-button>
+    
+  </div>
+</div>
+<div style="height: 400px" class="map" id="map" ></div>
