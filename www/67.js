@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[67],{
 
-/***/ "./node_modules/@ionic/core/dist/esm/legacy/ion-reorder_2-md.entry.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/@ionic/core/dist/esm/legacy/ion-reorder_2-md.entry.js ***!
-  \****************************************************************************/
+/***/ "./node_modules/@ionic/core/dist/esm/legacy/ion-reorder_2-ios.entry.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@ionic/core/dist/esm/legacy/ion-reorder_2-ios.entry.js ***!
+  \*****************************************************************************/
 /*! exports provided: ion_reorder, ion_reorder_group */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -41,7 +41,7 @@ var Reorder = /** @class */ (function () {
     };
     Reorder.prototype.render = function () { return Object(_chunk_f257aad1_js__WEBPACK_IMPORTED_MODULE_1__["h"])(_chunk_f257aad1_js__WEBPACK_IMPORTED_MODULE_1__["H"], this.hostData(), this.__stencil_render()); };
     Object.defineProperty(Reorder, "style", {
-        get: function () { return ":host([slot]){display:none;line-height:0;z-index:100}.reorder-icon{display:block;font-size:22px;font-size:31px;opacity:.3}"; },
+        get: function () { return ":host([slot]){display:none;line-height:0;z-index:100}.reorder-icon{display:block;font-size:22px;font-size:34px;opacity:.4}"; },
         enumerable: true,
         configurable: true
     });

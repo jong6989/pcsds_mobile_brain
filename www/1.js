@@ -79,8 +79,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var iosTransitionAnimation = function () { return __webpack_require__.e(/*! import() */ 90).then(__webpack_require__.bind(null, /*! ./ios.transition-080db2c2.js */ "./node_modules/@ionic/core/dist/esm/legacy/ios.transition-080db2c2.js")); };
-var mdTransitionAnimation = function () { return __webpack_require__.e(/*! import() */ 91).then(__webpack_require__.bind(null, /*! ./md.transition-9c1a17b7.js */ "./node_modules/@ionic/core/dist/esm/legacy/md.transition-9c1a17b7.js")); };
+var iosTransitionAnimation = function () { return __webpack_require__.e(/*! import() */ 91).then(__webpack_require__.bind(null, /*! ./ios.transition-080db2c2.js */ "./node_modules/@ionic/core/dist/esm/legacy/ios.transition-080db2c2.js")); };
+var mdTransitionAnimation = function () { return __webpack_require__.e(/*! import() */ 92).then(__webpack_require__.bind(null, /*! ./md.transition-9c1a17b7.js */ "./node_modules/@ionic/core/dist/esm/legacy/md.transition-9c1a17b7.js")); };
 function transition(opts) {
     return new Promise(function (resolve, reject) {
         Object(_chunk_f257aad1_js__WEBPACK_IMPORTED_MODULE_1__["w"])(function () {
